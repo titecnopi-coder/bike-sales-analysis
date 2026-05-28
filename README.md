@@ -1,2 +1,26 @@
-# bike-sales-analysis
-Dashboard interactivo desarrollado en Power BI para analizar ventas de bicicletas, categorías, productos más vendidos y rendimiento por tienda.  Incluye: - Limpieza y transformación de datos con Python/Pandas - Integración de múltiples tablas - KPIs de ventas - Dashboard interactivo en Power BI - Análisis visual de categorías y productos
+# 🚴 Bike Sales Analytics Platform
+
+## Descripción
+
+Proyecto de analítica de datos enfocado en ventas de bicicletas. El objetivo fue construir una solución completa de análisis utilizando Python, PostgreSQL, SQL y Power BI.
+
+El proyecto incluye procesos de limpieza, transformación, carga de datos, consultas SQL analíticas y visualización de KPIs en un dashboard interactivo.
+
+## Arquitectura del proyecto
+
+```text
+CSV / Datos fuente
+        ↓
+Python + Pandas
+        ↓
+PostgreSQL
+        ↓
+Power BI
+
+
+## Proceso realizado
+
+- Limpieza y transformación de datos con Python y Pandas.
+- Carga de datos en PostgreSQL mediante ETL.
+- Desarrollo de consultas SQL analíticas.
+- Creación de dashboard interactivo en Power BI.
