@@ -19,4 +19,4 @@ Dashboard interactivo desarrollado en Power BI para analizar ventas de bicicleta
 
 ## 📷 Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
+[![Dashboard Preview](dashboard_preview.png)](https://github.com/titecnopi-coder/bike-sales-analysis/blob/main/images/dashboard_preview.png)
