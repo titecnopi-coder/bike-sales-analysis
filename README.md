@@ -69,3 +69,20 @@ Power BI
 * Visualización de datos en Power BI
 * Documentación técnica de proyecto
 
+## Databricks / Spark
+
+Se realizó una práctica en Databricks usando Spark para cargar el dataset de ventas, revisar el esquema, transformar columnas numéricas y generar agregaciones analíticas.
+
+Flujo realizado:
+
+CSV
+↓
+Databricks Notebook
+↓
+Spark DataFrame
+↓
+Limpieza de tipos de datos
+↓
+Agregaciones por categoría y producto
+↓
+Tabla analítica en Databricks
