@@ -86,3 +86,17 @@ Limpieza de tipos de datos
 Agregaciones por categoría y producto
 ↓
 Tabla analítica en Databricks
+
+### Actividades realizadas
+
+- Carga de CSV usando Spark DataFrames.
+- Validación de esquema y tipos de datos.
+- Limpieza y transformación de columnas numéricas.
+- Agregaciones analíticas por categoría y producto.
+- Persistencia de tabla analítica en Databricks.
+
+### Tecnologías
+
+- Databricks
+- Apache Spark
+- PySpark
