@@ -100,3 +100,40 @@ Tabla analítica en Databricks
 - Databricks
 - Apache Spark
 - PySpark
+
+
+## Multicloud Data Pipeline - Bike Sales Analytics
+
+Este proyecto demuestra un pipeline de datos completo desde la simulación local hasta la nube real, integrando diferentes herramientas y plataformas:
+
+### Flujo de datos
+1. CSV local → Carpeta raw/processed (simulación de Data Lake)
+2. Spark / Databricks:
+   - Lectura de CSV
+   - Limpieza de columnas numéricas
+   - Agregaciones: ventas por categoría y top productos
+   - Guardado como tabla analítica en Databricks
+3. AWS S3:
+   - Subida de archivos raw y processed
+   - Simulación de almacenamiento cloud real
+4. Power BI:
+   - Conexión a CSV limpio o tabla Databricks
+   - Dashboard interactivo de ventas y KPIs
+
+### Tecnologías utilizadas
+- Python, Pandas, PySpark
+- PostgreSQL
+- Databricks / Spark
+- AWS S3
+- Power BI
+- Git / GitHub
+
+
+
+## Cloud & Multicloud
+
+El proyecto evolucionó desde una simulación local de almacenamiento tipo Data Lake (`raw/processed`) hacia integración con servicios cloud reales.
+
+Se implementó almacenamiento en AWS S3 para carga automática de archivos mediante Python y boto3, junto con procesamiento distribuido usando Spark y Databricks.
+
+Adicionalmente, se exploraron conceptos de arquitectura multicloud utilizando Azure y AWS como referencia para pipelines modernos de datos y analítica.
