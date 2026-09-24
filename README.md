@@ -56,7 +56,7 @@ Power BI
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
+   ![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
